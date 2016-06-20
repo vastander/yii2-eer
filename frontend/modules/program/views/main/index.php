@@ -13,6 +13,7 @@ AccordionAsset::register($this);
 $this->title = 'Образовательные программы';
 $this->params['breadcrumbs'][] = $this->title;
 $this->params['model'] = $faculty;
+$this->params['header'] = $faculty->name;
 
     $accordion = new AccordionContent();
     $items = $accordion->items($faculty->id);

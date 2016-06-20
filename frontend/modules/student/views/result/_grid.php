@@ -6,7 +6,7 @@ use common\models\StudentResultFile;
 
 /* @var $model StudentResult */
 $this->params['model'] = $model;
-$this->params['header'] = "{$model->idDisciplineSemester->idDiscipline->fullName} <h3>{$model->idStudentEducation->studentName}, {$model->idStudentEducation->course} курс </h3>";
+$this->params['header'] = "{$model->idDisciplineSemester->idDiscipline->name} <h3>{$model->idStudentEducation->studentName}, {$model->idStudentEducation->course} курс </h3>";
 
 ?>
 

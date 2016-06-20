@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = [
 ];
 $this->params['breadcrumbs'][] = $this->title;
 $this->params['model'] = $program;
-$this->params['header'] = $program->fullName;
+$this->params['header'] = $program->name;
 ?>
 
 <?= GridView::widget([
